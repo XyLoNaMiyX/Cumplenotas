@@ -1,0 +1,721 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>260, 260</value>
+  </data>
+  <data name="bdLB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>210, 186</value>
+  </data>
+  <data name="deletebdB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>230, 90</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAMDAAAAEAIACoJQAAFgAAACgAAAAwAAAAYAAAAAEAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAICAABuAgAB6gIAAwYCAAOyAgAD9gIAA/4CAAP+AgAD/gIAA/4CA
+        AP+AgAD/gIAA/4CAAP+AgAD/gIAA/4CAAP+AgAD/gIAA/4CAAP+AgAD/gIAA/4CAAP+AgAD/gIAA/4CA
+        AP+AgAD/gIAA/4CAAP+AgAD/gIAA/4CAAP+AgAD/gIAA/4CAAP2AgADsgIAAwYCAAHqAgAAbAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAgAAHgIAAh4CAAPeAgAD/gIAA/4CAAP+AgAD/gIAA/4CA
+        AP+AgAD/gIAA/4CAAP+AgAD/gIAA/4CAAP+AgAD/gIAA/4CAAP+AgAD/gIAA/4CAAP+AgAD/gIAA/4CA
+        AP+AgAD/gIAA/4CAAP+AgAD/gIAA/4CAAP+AgAD/gIAA/4CAAP+AgAD/gIAA/4CAAP+AgAD/gIAA/4CA
+        AP+AgAD3gIAAh4CAAAcAAAAAAAAAAAAAAAAAAAAAAAAAAICAABOAgADGgIAA/4CAAP+AgAD/gIAA/4CA
+        AP+AgAD/gIAA/4CAAP+AgAD/gIAA/4CAAP+AgAD/gIAA/4CAAP+AgAD/gIAA/4CAAP+AgAD/gIAA/4CA
+        AP+AgAD/gIAA/4CAAP+AgAD/gIAA/4CAAP+AgAD/gIAA/4CAAP+AgAD/gIAA/4CAAP+AgAD/gIAA/4CA
+        AP+AgAD/gIAA/4CAAP+AgAD/gIAA/4CAAMaAgAATAAAAAAAAAAAAAAAAgIAAB4CAAMaAgAD/gIAA/4CA
+        AP+AgAD/gIAA/4CAAP+AgAD/gIAA/4CAAP+AgAD/gIAA/4CAAP+AgAD/gIAA/4CAAP+AgAD/gIAA/4CA
+        AP+AgAD/gIAA/4CAAP+AgAD/gIAA/4CAAP+AgAD/gIAA/4CAAP+AgAD/gIAA/4CAAP+AgAD/gIAA/4CA
+        AP+AgAD/gIAA/4CAAP+AgAD/gIAA/4CAAP+AgAD/gIAA/4CAAP+AgADGgIAABwAAAAAAAAAAgIAAh4CA
+        AP+AgAD/gIAA/4CAAP+AgAD/gIAA/4CAAP+AgAD/gIAA/4CAAP+AgAD/gIAA/4CAAP+AgAD/gIAA/4CA
+        AP+AgAD/gIAA/4CAAP+AgAD/gIAA/4CAAP+AgAD/gIAA/4CAAP+AgAD/gIAA/4CAAP+AgAD/gIAA/4CA
+        AP+AgAD/gIAA/4CAAP+AgAD/gIAA/4CAAP+AgAD/gIAA/4CAAP+AgAD/gIAA/4CAAP+AgAD/gIAAhwAA
+        AACAgAAbgIAA94CAAP+AgAD/gIAA/4CAAP+AgAD/gIAA/4CAAP+AgAD/gIAA/4SGFf+Pl0z/lqFs/5ik
+        eP+YpHj/mKR4/5ikeP+YpHj/mKR4/5ikeP+YpHj/mKR4/5ikeP+YpHj/mKR4/5ikeP+YpHj/mKR4/5ik
+        eP+YpHj/mKR4/5ikeP+YpHf/laBq/46VR/+DhRD/gIAA/4CAAP+AgAD/gIAA/4CAAP+AgAD/gIAA/4CA
+        AP+AgAD/gIAA94CAABuAgAB6gIAA/4CAAP+AgAD/gIAA/4CAAP+AgAD/gIAA/4CAAP+Kji//obGj/67F
+        5f+vxun/r8bp/6/G6f+vxun/r8bp/6/G6f+vxun/r8bp/6/G6f+vxun/r8bp/6/G6f+vxun/r8bp/6/G
+        6f+vxun/r8bp/6/G6f+vxun/r8bp/6/G6f+vxun/r8bp/6/G6f+uxOP/n66a/4iLJv+AgAD/gIAA/4CA
+        AP+AgAD/gIAA/4CAAP+AgAD/gIAA/4CAAHqAgADBgIAA/4CAAP+AgAD/gIAA/4CAAP+AgAD/gIEC/5ik
+        ef+vxef/r8bp/6/G6f+vxun/r8bp/6/G6f+vxun/r8bp/6/G6f+vxun/r8bp/6/G6f+vxun/r8bp/6/G
+        6f+vxun/r8bp/6/G6f+vxun/r8bp/6/G6f+vxun/r8bp/6/G6f+vxun/r8bp/6/G6f+vxun/r8bp/67E
+        5P+Vn2j/gIAB/4CAAP+AgAD/gIAA/4CAAP+AgAD/gIAA/4CAAMGAgADsgIAA/4CAAP+AgAD/gIAA/4CA
+        AP+AgAH/nauQ/6/G6f+zxeT/tMXi/7TF4v+0xeL/tMXi/7TF4v+wxuj/scbm/7TF4v+0xeL/tMXi/7TF
+        4v+0xeL/ssXm/6/G6f+0xeL/tMXi/7TF4v+0xeL/tMXi/7PF4/+vxun/ssXk/7TF4v+0xeL/tMXi/7TF
+        4v+0xeL/sMbn/7HG5/+0xeL/nqR2/4iDCP+Igwj/iIMI/4WCBf+AgAD/gIAA/4CAAOyAgAD9gIAA/4CA
+        AP+AgAD/gIAA/4CAAP+Vn2j/r8bp/6/G6f/avLH/5rmh/+a5of/muaH/5rmh/+a5of+3xN//xcHM/+a5
+        of/muaH/5rmh/+a5of/muaH/y7/E/7HG5v/muaH/5rmh/+a5of/muaH/5rmh/9+7qv+vxun/1L24/+a5
+        of/muaH/5rmh/+a5of/muaH/vMPX/8DC0//muaH/5rmh/92rcv/Yo1j/2KNY/7aVNv+AgAD/gIAA/4CA
+        AP2AgAD/gIAA/4CAAP+AgAD/gIAA/4WIG/+tw+D/r8bp/6/G6f/avLH/5rmh/+a5of/muaH/5rmh/+a5
+        of+3xN//xcHM/+a5of/muaH/5rmh/+a5of/muaH/y7/E/7HG5v/muaH/5rmh/+a5of/muaH/5rmh/9+7
+        qv+vxun/1L24/+a5of/muaH/5rmh/+a5of/muaH/vMPX/8DC0//muaH/5rmh/+W3m//ZpF3/2KNY/7aV
+        Nv+AgAD/gIAA/4CAAP+AgAD/gIAA/4CAAP+AgAD/gIAA/5qmf/+vxun/r8bp/6/G6f/avLH/5rmh/+a5
+        of/muaH/5rmh/+a5of+3xN//xcHM/+a5of/muaH/5rmh/+a5of/muaH/y7/E/7HG5v/muaH/5rmh/+a5
+        of/muaH/5rmh/9+7qv+vxun/1L24/+a5of/muaH/5rmh/+a5of/muaH/vMPX/8DC0//muaH/5rmh/+a5
+        of/erXn/2KNY/7aVNv+AgAD/gIAA/4CAAP+AgAD/gIAA/4CAAP+AgAD/gIAA/6m+zf+vxun/r8bp/6/G
+        6f/avLH/5rmh/+a5of/muaH/5rmh/+a5of+3xN//xcHM/+a5of/muaH/5rmh/+a5of/muaH/y7/E/7HG
+        5v/muaH/5rmh/+a5of/muaH/5rmh/9+7qv+vxun/1L24/+a5of/muaH/5rmh/+a5of/muaH/vMPX/8DC
+        0//muaH/5rmh/+a5of/jtJL/2KNY/7aVNv+AgAD/gIAA/4CAAP+AgAD/gIAA/4CAAP+AgAD/hYcY/6/G
+        6f+vxun/r8bp/6/G6f/avLH/5rmh/+a5of/muaH/5rmh/+a5of+3xN//xcHM/+a5of/muaH/5rmh/+a5
+        of/muaH/y7/E/7HG5v/muaH/5rmh/+a5of/muaH/5rmh/9+7qv+vxun/1L24/+a5of/muaH/5rmh/+a5
+        of/muaH/vMPX/8DC0//muaH/5rmh/+a5of/muaD/2KRa/7aVNv+AgAD/gIAA/4CAAP+AgAD/gIAA/4CA
+        AP+AgAD/io8y/6/G6f+vxun/r8bp/6/G6f/Svrv/3Luu/9y7rv/cu67/3Luu/9y7rv+2xOD/wcLR/9y7
+        rv/cu67/3Luu/9y7rv/cu67/xsHL/7HG5//cu67/3Luu/9y7rv/cu67/3Luu/9e9tf+vxun/zb/B/9y7
+        rv/cu67/3Luu/9y7rv/cu67/usPb/73D1//cu67/3Luu/9y7rv/cu67/y6FV/6ySLP+AgAD/gIAA/4CA
+        AP+AgAD/gIAA/4CAAP+AgAD/i5E5/6/G6f+vxun/r8bp/6/G6f+vxun/r8bp/6/G6f+vxun/r8bp/6/G
+        6f+vxun/r8bp/6/G6f+vxun/r8bp/6/G6f+vxun/r8bp/6/G6f+vxun/r8bp/6/G6f+vxun/r8bp/6/G
+        6f+vxun/r8bp/6/G6f+vxun/r8bp/6/G6f+vxun/r8bp/6/G6f+vxun/r8bp/6/G6f+vxun/h4sk/4CA
+        AP+AgAD/gIAA/4CAAP+AgAD/gIAA/4CAAP+AgAD/jJE5/6/G6f+vxun/r8bp/6/G6f+vxun/r8bp/6/G
+        6f+vxun/r8bp/6/G6f+vxun/r8bp/6/G6f+vxun/r8bp/6/G6f+vxun/r8bp/6/G6f+vxun/r8bp/6/G
+        6f+vxun/r8bp/6/G6f+vxun/r8bp/6/G6f+vxun/r8bp/6/G6f+vxun/r8bp/6/G6f+vxun/r8bp/6/G
+        6f+vxun/h4sk/4CAAP+AgAD/gIAA/4CAAP+AgAD/gIAA/4CAAP+AgAD/jJE5/6/G6f+2xN//0L6+/9C+
+        vv/Qvr7/0L6+/9C+vv/Fwcz/r8bp/8u/xP/Qvr7/0L6+/9C+vv/Qvr7/z76+/7HG5/+/wtT/0L6+/9C+
+        vv/Qvr7/0L6+/9C+vv+9w9f/s8Xk/9C+vv/Qvr7/0L6+/9C+vv/Qvr7/ycDH/6/G6f/IwMj/0L6+/9C+
+        vv/Qvr7/0L6+/9C+vv+0xeL/h4sk/4CAAP+AgAD/gIAA/4CAAP+AgAD/gIAA/4CAAP+AgAD/jJE5/6/G
+        6f+7w9n/5rmh/+a5of/muaH/5rmh/+a5of/Vvbj/r8bp/967q//muaH/5rmh/+a5of/muaH/5rmh/7LF
+        5f/KwMX/5rmh/+a5of/muaH/5rmh/+a5of/Gwcv/tsTg/+a5of/muaH/5rmh/+a5of/muaH/2ryw/6/G
+        6f/ZvLL/5rmh/+a5of/muaH/5rmh/+a5of+3xN7/h4sk/4CAAP+AgAD/gIAA/4CAAP+AgAD/gIAA/4CA
+        AP+AgAD/jJE5/6/G6f+7w9n/5rmh/+a5of/muaH/5rmh/+a5of/Vvbj/r8bp/967q//muaH/5rmh/+a5
+        of/muaH/5rmh/7LF5f/KwMX/5rmh/+a5of/muaH/5rmh/+a5of/Gwcv/tsTg/+a5of/muaH/5rmh/+a5
+        of/muaH/2ryw/6/G6f/ZvLL/5rmh/+a5of/muaH/5rmh/+a5of+3xN7/h4sk/4CAAP+AgAD/gIAA/4CA
+        AP+AgAD/gIAA/4CAAP+AgAD/jJE5/6/G6f+7w9n/5rmh/+a5of/muaH/5rmh/+a5of/Vvbj/r8bp/967
+        q//muaH/5rmh/+a5of/muaH/5rmh/7TH5f/Nwcb/6Lqh/+i6of/ouqH/57qh/+e6of/Gwcv/tsTg/+a5
+        of/muaH/5rmh/+a5of/muaH/2ryw/6/G6f/ZvLL/5rmh/+a5of/muaH/5rmh/+a5of+3xN7/h4sk/4CA
+        AP+AgAD/gIAA/4CAAP+AgAD/gIAA/4CAAP+AgAD/i5A1/6/G6f+7w9n/5rmh/+a5of/muaH/5rmh/+a5
+        of/Vvbj/scjq/+O+rP/svaL/7r+j//DAo//ywaT/88Kk/9jh7//l08z/88Kk//PCpP/zwqT/88Kk//PC
+        pP/i1dL/19zp//DAo//uv6P/7L2i/+q8ov/nuqH/2ryw/6/G6f/ZvLL/5rmh/+a5of/muaH/5rmh/+a5
+        of+3xN7/hokf/4CAAP+AgAD/gIAA/4CAAP+AgAD/gIAA/4CAAP+AgAD/hokf/6/G6f+7w9n/5rmh/+a5
+        of/muaH/6Lqh/+y9ov/myrz/1uP0/+/Hr//zwqT/88Kk//PCpP/zwqT/88Kk/9nh7//l08z/88Kk//PC
+        pP/zwqT/88Kk//PCpP/j1dL/29/q//PCpP/zwqT/88Kk//PCpP/zwqT/6ca0/8TV7//dv7P/5rmh/+a5
+        of/muaH/5rmh/+a5of+3xN3/goML/4CAAP+AgAD/gIAA/4CAAP+AgAD/gIAA/4CAAP+AgAD/gIEC/6zB
+        2P+zxeT/wcLS/8zK1f/c1tn/4Nja/+DY2v/d3OL/1+P0/9/a3v/g2Nr/4Nja/+DY2v/g2Nr/4Nja/9ji
+        8v/c3uf/4Nja/+DY2v/g2Nr/4Nja/+DY2v/b3un/2OLx/+DY2v/g2Nr/4Nja/+DY2v/g2Nr/3tvf/9fj
+        9P/e2+D/3dbZ/87L1f/BwtL/wcLR/8HC0f+qu8H/gIAA/4CAAP+AgAD/gIAA/4CAAP+AgAD/gIAA/4CA
+        AP+AgAD/gIAA/52skv+0yer/zNvx/9fj9P/X4/T/1+P0/9fj9P/X4/T/1+P0/9fj9P/X4/T/1+P0/9fj
+        9P/X4/T/1+P0/9fj9P/X4/T/1+P0/9fj9P/X4/T/1+P0/9fj9P/X4/T/1+P0/9fj9P/X4/T/1+P0/9fj
+        9P/X4/T/1+P0/9fj9P/X4/T/1+P0/9fj9P/O3fL/tcvr/6/G6f+ZpXz/gIAA/4CAAP+AgAD/gIAA/4CA
+        AP+AgAD/gIAA/4CAAP+AgAD/lokW/62fVf/e1Nb/4dfX/+HX1//h19f/2eDt/9rf6//h19f/4dfX/+HX
+        1//h19f/4dfX/93c4//X4/T/4djY/+HX1//h19f/4dfX/+HX1//h19j/1+P0/93c4//h19f/4dfX/+HX
+        1//h19f/4dfX/9rf6v/Z4O7/4dfX/+HX1//h19f/4dfX/+HX1//e2+D/1eHz/7fL5f+GiBz/gIAA/4CA
+        AP+AgAD/gIAA/4CAAP+AgAD/gIAA/4CAAP+AgAD/vZk+/+++mf/zwqT/88Kk//PCpP/zwqT/3dvh/+DZ
+        2//zwqT/88Kk//PCpP/zwqT/88Kk/+jPxP/X4/T/8sSo//PCpP/zwqT/88Kk//LCof/Ov2X/0uLq/+fQ
+        xf/zwqT/88Kk//PCpP/zwqT/88Kk/+DY2f/d3OP/88Kk//PCpP/zwqT/88Kk//PCpP/rzLz/1+P0/8/b
+        4P+Fhg//gIAA/4CAAP+AgAD/gIAA/4CAAP+AgAD/gIAA/4CAAP+AgAD/xKFS//PCpP/zwqT/88Kk//PC
+        pP/zwqT/3dvh/+DZ2//zwqT/88Kk//PCpP/zwqT/88Kk/+jPxP/X4/T/8sSo//PCpP/zwqT/88Kk//HC
+        of/GvlX/0eLn/+fQxf/zwqT/88Kk//PCpP/zwqT/88Kk/+DY2f/d3OP/88Kk//PCpP/zwqT/88Kk//PC
+        pP/rzLz/1+P0/9fj9P+hplz/gIAA/4CAAP+AgAD/gIAA/4CAAP+AgAD/gIAA/4CAAP+AgAD/xaJW//PC
+        pP/zwqT/88Kk//PCpP/zwqT/3dvh/+DZ2//zwqT/88Kk//PCpP/zwqT/88Kk/+jPxP/X4/T/8sSo//PC
+        pP/zwqT/88Kk//HCof/GvlX/0eLn/+fQxf/zwqT/88Kk//PCpP/zwqT/88Kk/+DY2f/d3OP/88Kk//PC
+        pP/zwqT/88Kk//PCpP/rzLz/1+P0/9fj9P+lqmf/gIAA/4CAAP+AgAD/gIAA/4CAAP+AgAD/gIAA/4CA
+        AP+AgAD/vppB//HAn//zwqT/88Kk//PCpP/zwqT/3dvh/+DZ2//zwqT/38CA/+PAh//zwqT/88Kk/+jP
+        xP/X4/T/8sSo//PCpP/zwqT/88Kk//HCof/GvlX/0eLn/+fQxf/zwqT/5MCJ/9i/cv/zwqT/88Kk/+DY
+        2f/d3OP/88Kk//PCpP/zwqT/88Kk//PCpP/rzLz/1+P0/9Tg7P+LjB7/gIAA/4CAAP+AgAD/gIAA/4CA
+        AP+AgAD/gIAA/4CAAP+AgAD/vJg8/+GtcP/zwqP/88Kk//PCpP/zwqT/3dvh/+DZ2//zwqT/2r92/9/A
+        f//zwqT/88Kk/+jPxP/X4/T/8sSo//PCpP/zwqT/88Kk//HCof/GvlX/0eLn/+fQxf/zwqT/48CH/9a+
+        bv/zwqT/88Kk/+DY2f+315r/78Kc//PCpP/zwqT/88Kk//PCpP/rzLz/1+Pz/6KnYf+AgAD/gIAA/4CA
+        AP+AgAD/gIAA/4CAAP+AgAD/gIAA/4CAAP+AgAD/oY0h/7GTMf+4nEf/3cau/+bRyP/m0cj/29/q/9zd
+        5v/m0cj/tsts/7/Mfv/m0cj/5tHI/+DY2v/X4/T/ys6W/7zMeP/m0cj/5tHI/+PQwf+UyDD/0OLn/+DY
+        2v/m0cj/yM2O/63KXP/m0cj/5tHI/9zd5f920y7/086k/+bRyP/m0cj/5tHI/+bRyP/bz8P/nKBQ/4CA
+        AP+AgAD/gIAA/4CAAP+AgAD/gIAA/4CAAP+AgAD/gIAA/4CAAP+AgAD/gIAA/4CAAP+AgAD/hYYP/6yz
+        ff/R3OP/1+P0/9fj9P/X4/T/iNpg/5fcfP/X4/T/1+P0/9fj9P/X4/T/n9yK/4HZUv/X4/T/1+P0/9Hi
+        6f9V1AH/0OLn/9fj9P/X4/T/pd2X/3rYRf/X4/T/1+P0/9fj9P9o1iP/uN+6/9fj9P/X4/T/097o/7C3
+        h/+HiBT/gIAA/4CAAP+AgAD/gIAA/4CAAP+AgAD/gIAA/4CAAP+AgAD/gIAA/4CAAP+AgAD/gIAA/4CA
+        AP+AgAD/gIAA/4CAAP+EhAr/oKVa/77Grf/U4Ov/iNpg/5fcfP/X4/T/1+P0/9fj9P/X4/T/n9yK/4HZ
+        Uv/X4/T/1+P0/9Hi6f9V1AH/0OLn/9fj9P/X4/T/pd2X/3rYRf/X4/T/1+P0/9fj9P9o1iP/tt20/8DJ
+        tP+jqGH/hYYP/4CAAP+AgAD/gIAA/4CAAP+AgAD/gIAA/4CAAP+AgAD/gIAA/4CAAP+AgAD/gIAA/4CA
+        AP+AgAD/gIAA/4CAAP+AgAD/gIAA/4CAAP+AgAD/gIAA/4CAAP+EhAr/bboT/4PFRP+7xKf/ytXQ/9Xg
+        7f/X4/T/n9yK/4HZUv/X4/T/1+P0/7O+8/8JmeX/mrH0/9fj9P/X4/T/pd2X/3nXQv/L1tP/vcWr/6yz
+        ff9gzQ3/eJYF/4CAAP+AgAD/gIAA/4CAAP+AgAD/gIAA/4CAAP+AgAD/gIAA/4CAAP+AgAD/gIAA/4CA
+        AP+0gAD/tIAA/7SAAP+0gAD/tIAA/7SAAP+0gAD/tIAA/7SAAP+0gAD/tIAA/7SAAP+0gAD/e7MA/4ap
+        AP+0gAD/tIAA/7aCBv++ixv/lK8a/37CGP/RoVH/1KRY/9WlXP9TRrD/a0yf/82cRf/HljX/l6kV/3C8
+        AP+0gAD/tIAA/7SAAP9jyAD/nZQA/7SAAP+0gAD/tIAA/7SAAP+0gAD/tIAA/7SAAP+0gAD/tIAA/7SA
+        AP+0gAD/tIAA/7SAAP//gAD//4AA//+AAP//gAD//4AA//+AAP//gAD//4AA//+AAP//gAD//4AA//+A
+        AP//gAD/lrMG/6ekDP//gAD//4AA//+AAP//gAD/taQA/464AP//gAD//4AA//+AAP/icR3/+34E//+A
+        AP//gAD/sKEf/3KqNv//gAD//4AA//+AAP9tyAD/1pQA//+AAP//gAD//4AA//+AAP//gAD//4AA//+A
+        AP//gAD//4AA//+AAP//gAD//4AA//+AAP//gAD//4AA//+AAP//gAD//4AA//+AAP//gAD//4AA//+A
+        AP//gAD//4AA//+AAP/8fwP/Mo3H/0pKtf//gAD//4AA//+AAP//gAD/taQA/464AP//gAD//4AA//+A
+        AP//gAD//4AA//+AAP/6fgX/Gmbl/1xBo///gAD//4AA//+AAP9tyAD/1pQA//+AAP//gAD//4AA//+A
+        AP//gAD//4AA//+AAP//gAD//4AA//+AAP//gAD//4AA//+AAP/+gAD//4AA//+AAP//gAD//4AA//+A
+        AP//gAD//4AA//+AAP//gAD//4AA//+AAP/7fgT/LBnT/99wIP//gAD//4AA//+AAP//gAD/s6IF/424
+        Av//gAD//4AA//+AAP//gAD//4AA//+AAP//gAD/XC6j//B4D///gAD//4AA/951If8msK7/wHQs//+A
+        AP//gAD//4AA//+AAP//gAD//4AA//+AAP//gAD//4AA//+AAP//gAD//4AA//6AAP/8gADx/4AA//+A
+        AP//gAD//4AA//+AAP//gAD//4AA//+AAP//gAD//4AA//+AAP//gAD/8XkO//+AAP//gAD//4AA//+A
+        AP//gAD/TEyz/zSXvv/9fwL//4AA//+AAP//gAD//4AA//+AAP//gAD//4AA//+AAP//gAD//4AA/3s/
+        hP85Q8b/+H0H//+AAP//gAD//4AA//+AAP//gAD//4AA//+AAP//gAD//4AA//+AAP//gAD//4AA//2A
+        APH8gADG/4AA//+AAP//gAD//4AA//+AAP//gAD//4AA//+AAP//gAD//4AA//+AAP//gAD//4AA//+A
+        AP//gAD//4AA//+AAP//gAD/224k/yIY3f/6fQX//4AA//+AAP//gAD//4AA//+AAP//gAD//4AA//+A
+        AP//gAD//4AA/+94EP/FYzr//4AA//+AAP//gAD//4AA//+AAP//gAD//4AA//+AAP//gAD//4AA//+A
+        AP//gAD//4AA//yAAMb7gAB+/4AA//+AAP//gAD//4AA//+AAP//gAD//4AA//+AAP//gAD//4AA//+A
+        AP//gAD//4AA//+AAP//gAD//4AA//+AAP//gAD//4AA/+t2FP//gAD//4AA//+AAP//gAD//4AA//+A
+        AP//gAD//4AA//+AAP//gAD//4AA//+AAP//gAD//4AA//+AAP//gAD//4AA//+AAP//gAD//4AA//+A
+        AP//gAD//4AA//+AAP//gAD//4AA//uAAH7ygAAe/oAA+f+AAP//gAD//4AA//+AAP//gAD//4AA//+A
+        AP//gAD//4AA//+AAP//gAD//4AA//+AAP//gAD//4AA//+AAP//gAD//4AA//+AAP//gAD//4AA//+A
+        AP//gAD//4AA//+AAP//gAD//4AA//+AAP//gAD//4AA//+AAP//gAD//4AA//+AAP//gAD//4AA//+A
+        AP//gAD//4AA//+AAP//gAD//4AA//+AAP//gAD//oAA+fKAAB4AAAAA+4AAi/+AAP//gAD//4AA//+A
+        AP//gAD//4AA//+AAP//gAD//4AA//+AAP//gAD//4AA//+AAP//gAD//4AA//+AAP//gAD//4AA//+A
+        AP//gAD//4AA//+AAP//gAD//4AA//+AAP//gAD//4AA//+AAP//gAD//4AA//+AAP//gAD//4AA//+A
+        AP//gAD//4AA//+AAP//gAD//4AA//+AAP//gAD//4AA//+AAP//gAD/+4AAiwAAAAAAAAAA64AACP2A
+        AMr/gAD//4AA//+AAP//gAD//4AA//+AAP//gAD//4AA//+AAP//gAD//4AA//+AAP//gAD//4AA//+A
+        AP//gAD//4AA//+AAP//gAD//4AA//+AAP//gAD//4AA//+AAP//gAD//4AA//+AAP//gAD//4AA//+A
+        AP//gAD//4AA//+AAP//gAD//4AA//+AAP//gAD//4AA//+AAP//gAD//4AA//+AAP/9gADK64AACAAA
+        AAAAAAAAAAAAAPOAABX8gADK/4AA//+AAP//gAD//4AA//+AAP//gAD//4AA//+AAP//gAD//4AA//+A
+        AP//gAD//4AA//+AAP//gAD//4AA//+AAP//gAD//4AA//+AAP//gAD//4AA//+AAP//gAD//4AA//+A
+        AP//gAD//4AA//+AAP//gAD//4AA//+AAP//gAD//4AA//+AAP//gAD//4AA//+AAP//gAD//4AA//yA
+        AMrzgAAVAAAAAAAAAAAAAAAAAAAAAAAAAADrgAAI+4AAi/6AAPn/gAD//4AA//+AAP//gAD//4AA//+A
+        AP//gAD//4AA//+AAP//gAD//4AA//+AAP//gAD//4AA//+AAP//gAD//4AA//+AAP//gAD//4AA//+A
+        AP//gAD//4AA//+AAP//gAD//4AA//+AAP//gAD//4AA//+AAP//gAD//4AA//+AAP//gAD//4AA//+A
+        AP/+gAD5+4AAi+uAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPKAAB77gAB+/IAAxv2A
+        APH+gAD//4AA//+AAP//gAD//4AA//+AAP//gAD//4AA//+AAP//gAD//4AA//+AAP//gAD//4AA//+A
+        AP//gAD//4AA//+AAP//gAD//4AA//+AAP//gAD//4AA//+AAP//gAD//4AA//+AAP//gAD//4AA//6A
+        AP/9gADx/IAAxvuAAH7ygAAeAAAAAAAAAAAAAAAAAAAAAAAAAAD4AAAAAB8AAOAAAAAABwAAwAAAAAAD
+        AACAAAAAAAEAAIAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAQAAgAAAAAABAADAAAAAAAMAAOAAAAAABwAA+AAAAAAf
+        AAA=
+</value>
+  </data>
+  <data name="&gt;&gt;showAllCB.Name" xml:space="preserve">
+    <value>showAllCB</value>
+  </data>
+  <data name="&gt;&gt;editbdTSMI.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="addbdB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 23</value>
+  </data>
+  <data name="delbdTSMI.Size" type="System.Drawing.Size, System.Drawing">
+    <value>185, 22</value>
+  </data>
+  <data name="&gt;&gt;addbdB.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;addbdB.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="addbdTSMI.Text" xml:space="preserve">
+    <value>Añadir cumpleaños</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="deletebdB.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>MainF</value>
+  </data>
+  <data name="showAllCB.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="deletebdB.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="birthdaysL.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 13</value>
+  </data>
+  <data name="&gt;&gt;deletebdB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;appNotifyIcon.Name" xml:space="preserve">
+    <value>appNotifyIcon</value>
+  </data>
+  <data name="showAllCB.Text" xml:space="preserve">
+    <value>Mostrar todos</value>
+  </data>
+  <data name="&gt;&gt;editbdB.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator1.Name" xml:space="preserve">
+    <value>toolStripSeparator1</value>
+  </data>
+  <data name="notifyIcon.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAGBgAAAEAIACICQAAFgAAACgAAAAYAAAAMAAAAAEAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAgIAAAoCAAGaAgADOgIAA+oCAAP+AgAD/gIAA/4CAAP+AgAD/gIAA/4CAAP+AgAD/gIAA/4CA
+        AP+AgAD/gIAA/4CAAP+AgAD/gIAA+oCAAM6AgABmgIAAAgAAAACAgAACgIAAqICAAP+AgAD/gIAA/4CA
+        AP+AgAD/gIAA/4CAAP+AgAD/gIAA/4CAAP+AgAD/gIAA/4CAAP+AgAD/gIAA/4CAAP+AgAD/gIAA/4CA
+        AP+AgAD/gIAAqICAAAKAgABmgIAA/4CAAP+AgAD/gIAA/4GCBf+Jji7/jJI8/4ySPP+Mkjz/jJI8/4yS
+        PP+Mkjz/jJI8/4ySPP+Mkjz/jJI8/4mNLP+BgQT/gIAA/4CAAP+AgAD/gIAA/4CAAGaAgADOgIAA/4CA
+        AP+AgAH/lJ5k/6vA1/+vxun/r8bp/6/G6f+vxun/r8bp/6/G6f+vxun/r8bp/6/G6f+vxun/r8bp/6/G
+        6f+rwNT/k5xc/4CAAP+AgAD/gIAA/4CAAM6AgAD6gIAA/4CAAP+YpHn/u8Pa/82/wv/Nv8L/wMLS/8TB
+        zf/Nv8L/zb/C/7fE3v/Nv8L/zb/C/8u/xP+5xNz/zb/C/82/wv/CwtH/w8HP/7qjZP+wkzD/j4YP/4CA
+        APqAgAD/gIAA/4iMJv+vxef/xMHN/+a5of/muaH/z7/A/9a9tv/muaH/5rmh/77C1f/muaH/5rmh/+O6
+        pf/CwtH/5rmh/+a5of/Rvrz/0726/+a5oP/apmH/m4sb/4CAAP+AgAD/gIAA/5ejdP+vxun/xMHN/+a5
+        of/muaH/z7/A/9a9tv/muaH/5rmh/77C1f/muaH/5rmh/+O6pf/CwtH/5rmh/+a5of/Rvrz/0726/+a5
+        of/erXn/m4sb/4CAAP+AgAD/gIAA/52rj/+vxun/uMTe/8bBy//Gwcv/vMPY/7/C1P/Gwcv/xsHL/7XF
+        4f/Gwcv/xsHL/8TBzf+3xN//xsHL/8bBy/+9w9f/vsPW/8bBy/+3q4T/i4QL/4CAAP+AgAD/gIAA/52s
+        kf+5xNz/v8LU/7/C1P+1xeL/vsLV/7/C1P+/wtT/tMXj/7/C1P+/wtT/u8Pa/7jE3f+/wtT/v8LU/7XE
+        4f+9w9b/v8LU/7/C1P+cqIX/gIAA/4CAAP+AgAD/gIAA/52skf/Rvr3/5rmh/+a5of/CwtD/4rqm/+a5
+        of/muaH/vsLV/+a5of/muaH/1r22/86/wP/muaH/5rmh/8XBzf/fu6n/5rmh/+a5of+fp4H/gIAA/4CA
+        AP+AgAD/gIAA/52rkP/Rvr3/5rmh/+a5of/CwtD/5byn/+u8ov/svaL/0M/a/+2+o//tvqP/4cS5/9nG
+        w//qvKL/57qh/8XBzf/fu6n/5rmh/+a5of+fp4D/gIAA/4CAAP+AgAD/gIAA/5ikef/Fwcz/3cS8/+XK
+        vv/c2+H/6M/D/+rNv//qzb//3N3l/+rNv//qzb//5NPO/+HX1v/qzb//6s2//9jW3f/gysP/18C6/9O9
+        uf+ZoGr/gIAA/4CAAP+AgAD/gIAA/5iVP//Q1OL/3N3l/9jh8P/c3eX/3N3l/9ve6P/Z4O3/3N3l/9zd
+        5f/Z4O3/297o/9zd5f/c3eX/2OHw/9zd5f/c3eX/2dzn/7zP6/+Iiyb/gIAA/4CAAP+AgAD/gIAA/9mu
+        c//zwqT/88Kk/9/a3v/zwqT/88Kk/+3JtP/k087/88Kk//LCov/O0KP/7cm1//PCpP/zwqT/39re//PC
+        pP/zwqT/78ew/9Xh7/+Kixv/gIAA/4CAAP+AgAD/gIAA/9qwd//zwqT/88Kk/9/a3v/uwZv/78Kd/+3J
+        tP/k087/88Kk//LCov/L0J7/7cm1/+nBkf/zwqT/39re//PCpP/zwqT/78ew/9bi8v+MjSH/gIAA/4CA
+        AP+AgAD/gIAA/7yZQP/fuo//7cm2/93c4//ax5T/3sia/+jOwv/a1sn/4sii/+vJs/+/0pX/6M/D/8vF
+        eP/tybb/utii/+fJq//tybb/6Mu7/6Wraf+AgAD/gIAA/4CAAP+AgAD/gIAA/4CAAP+BgQT/oKVa/8PM
+        vP+v3qj/t9+4/9fj9P+74L//rN6j/9Tj7v+T23T/1+P0/5Dbbv/X4/T/n92M/8Haxf+0vJP/jpAn/4CA
+        AP+AgAD/gIAA/4CAAP+agAD/moAA/5qAAP+agAD/moAA/5qAAP+InAf/nqw7/8Kucf+yvm3/qshs/827
+        p/9Yd8r/0b6Z/4nGPP+8p2D/ibIj/5KLAf+agAD/moAA/5qAAP+agAD/moAA/5qAAP//gAD//4AA//+A
+        AP//gAD//4AA//+AAP+xkDT/vHww//+AAP/akgD/x5wA//+AAP/3fAj//n8B/2Z9d///gAD/tqQA/+uK
+        AP//gAD//4AA//+AAP//gAD//4AA//+AAP/+gAD7/4AA//+AAP//gAD//4AA//+AAP/GZDn/93wI//+A
+        AP+/fC7/r5Mx//+AAP//gAD//4AA/9JqLf//gAD/bmqG/+18Df//gAD//4AA//+AAP//gAD//4AA//6A
+        APv+gADQ/4AA//+AAP//gAD//4AA//+AAP//gAD//4AA//+AAP/2fAn/wWM+//+AAP//gAD//4AA//+A
+        AP//gAD/7HcT//+AAP//gAD//4AA//+AAP//gAD//4AA//6AAND8gABp/4AA//+AAP//gAD//4AA//+A
+        AP//gAD//4AA//+AAP//gAD//4AA//+AAP//gAD//4AA//+AAP//gAD//4AA//+AAP//gAD//4AA//+A
+        AP//gAD//4AA//yAAGnrgAAC/YAAqv+AAP//gAD//4AA//+AAP//gAD//4AA//+AAP//gAD//4AA//+A
+        AP//gAD//4AA//+AAP//gAD//4AA//+AAP//gAD//4AA//+AAP//gAD//YAAquuAAAIAAAAA64AAAvyA
+        AGn+gADQ/oAA+/+AAP//gAD//4AA//+AAP//gAD//4AA//+AAP//gAD//4AA//+AAP//gAD//4AA//+A
+        AP//gAD//oAA+/6AAND8gABp64AAAgAAAACAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAA
+        AQA=
+</value>
+  </data>
+  <data name="optionsB.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;bdLB.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="optionsB.Text" xml:space="preserve">
+    <value>Opciones</value>
+  </data>
+  <data name="birthdaysL.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;appNotifyIcon.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NotifyIcon, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;optionsB.Name" xml:space="preserve">
+    <value>optionsB</value>
+  </data>
+  <data name="notifyIcon.BalloonTipTitle" xml:space="preserve">
+    <value>Hey</value>
+  </data>
+  <data name="bdLB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 30</value>
+  </data>
+  <data name="&gt;&gt;bdLB.Name" xml:space="preserve">
+    <value>bdLB</value>
+  </data>
+  <data name="birthdaysL.Text" xml:space="preserve">
+    <value>Próximos cumpleaños:</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="bdLB.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="addbdTSMI.Size" type="System.Drawing.Size, System.Drawing">
+    <value>185, 22</value>
+  </data>
+  <data name="appNotifyIcon.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAGBgAAAEAIACICQAAFgAAACgAAAAYAAAAMAAAAAEAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAgIAAAoCAAGaAgADOgIAA+oCAAP+AgAD/gIAA/4CAAP+AgAD/gIAA/4CAAP+AgAD/gIAA/4CA
+        AP+AgAD/gIAA/4CAAP+AgAD/gIAA+oCAAM6AgABmgIAAAgAAAACAgAACgIAAqICAAP+AgAD/gIAA/4CA
+        AP+AgAD/gIAA/4CAAP+AgAD/gIAA/4CAAP+AgAD/gIAA/4CAAP+AgAD/gIAA/4CAAP+AgAD/gIAA/4CA
+        AP+AgAD/gIAAqICAAAKAgABmgIAA/4CAAP+AgAD/gIAA/4GCBf+Jji7/jJI8/4ySPP+Mkjz/jJI8/4yS
+        PP+Mkjz/jJI8/4ySPP+Mkjz/jJI8/4mNLP+BgQT/gIAA/4CAAP+AgAD/gIAA/4CAAGaAgADOgIAA/4CA
+        AP+AgAH/lJ5k/6vA1/+vxun/r8bp/6/G6f+vxun/r8bp/6/G6f+vxun/r8bp/6/G6f+vxun/r8bp/6/G
+        6f+rwNT/k5xc/4CAAP+AgAD/gIAA/4CAAM6AgAD6gIAA/4CAAP+YpHn/u8Pa/82/wv/Nv8L/wMLS/8TB
+        zf/Nv8L/zb/C/7fE3v/Nv8L/zb/C/8u/xP+5xNz/zb/C/82/wv/CwtH/w8HP/7qjZP+wkzD/j4YP/4CA
+        APqAgAD/gIAA/4iMJv+vxef/xMHN/+a5of/muaH/z7/A/9a9tv/muaH/5rmh/77C1f/muaH/5rmh/+O6
+        pf/CwtH/5rmh/+a5of/Rvrz/0726/+a5oP/apmH/m4sb/4CAAP+AgAD/gIAA/5ejdP+vxun/xMHN/+a5
+        of/muaH/z7/A/9a9tv/muaH/5rmh/77C1f/muaH/5rmh/+O6pf/CwtH/5rmh/+a5of/Rvrz/0726/+a5
+        of/erXn/m4sb/4CAAP+AgAD/gIAA/52rj/+vxun/uMTe/8bBy//Gwcv/vMPY/7/C1P/Gwcv/xsHL/7XF
+        4f/Gwcv/xsHL/8TBzf+3xN//xsHL/8bBy/+9w9f/vsPW/8bBy/+3q4T/i4QL/4CAAP+AgAD/gIAA/52s
+        kf+5xNz/v8LU/7/C1P+1xeL/vsLV/7/C1P+/wtT/tMXj/7/C1P+/wtT/u8Pa/7jE3f+/wtT/v8LU/7XE
+        4f+9w9b/v8LU/7/C1P+cqIX/gIAA/4CAAP+AgAD/gIAA/52skf/Rvr3/5rmh/+a5of/CwtD/4rqm/+a5
+        of/muaH/vsLV/+a5of/muaH/1r22/86/wP/muaH/5rmh/8XBzf/fu6n/5rmh/+a5of+fp4H/gIAA/4CA
+        AP+AgAD/gIAA/52rkP/Rvr3/5rmh/+a5of/CwtD/5byn/+u8ov/svaL/0M/a/+2+o//tvqP/4cS5/9nG
+        w//qvKL/57qh/8XBzf/fu6n/5rmh/+a5of+fp4D/gIAA/4CAAP+AgAD/gIAA/5ikef/Fwcz/3cS8/+XK
+        vv/c2+H/6M/D/+rNv//qzb//3N3l/+rNv//qzb//5NPO/+HX1v/qzb//6s2//9jW3f/gysP/18C6/9O9
+        uf+ZoGr/gIAA/4CAAP+AgAD/gIAA/5iVP//Q1OL/3N3l/9jh8P/c3eX/3N3l/9ve6P/Z4O3/3N3l/9zd
+        5f/Z4O3/297o/9zd5f/c3eX/2OHw/9zd5f/c3eX/2dzn/7zP6/+Iiyb/gIAA/4CAAP+AgAD/gIAA/9mu
+        c//zwqT/88Kk/9/a3v/zwqT/88Kk/+3JtP/k087/88Kk//LCov/O0KP/7cm1//PCpP/zwqT/39re//PC
+        pP/zwqT/78ew/9Xh7/+Kixv/gIAA/4CAAP+AgAD/gIAA/9qwd//zwqT/88Kk/9/a3v/uwZv/78Kd/+3J
+        tP/k087/88Kk//LCov/L0J7/7cm1/+nBkf/zwqT/39re//PCpP/zwqT/78ew/9bi8v+MjSH/gIAA/4CA
+        AP+AgAD/gIAA/7yZQP/fuo//7cm2/93c4//ax5T/3sia/+jOwv/a1sn/4sii/+vJs/+/0pX/6M/D/8vF
+        eP/tybb/utii/+fJq//tybb/6Mu7/6Wraf+AgAD/gIAA/4CAAP+AgAD/gIAA/4CAAP+BgQT/oKVa/8PM
+        vP+v3qj/t9+4/9fj9P+74L//rN6j/9Tj7v+T23T/1+P0/5Dbbv/X4/T/n92M/8Haxf+0vJP/jpAn/4CA
+        AP+AgAD/gIAA/4CAAP+agAD/moAA/5qAAP+agAD/moAA/5qAAP+InAf/nqw7/8Kucf+yvm3/qshs/827
+        p/9Yd8r/0b6Z/4nGPP+8p2D/ibIj/5KLAf+agAD/moAA/5qAAP+agAD/moAA/5qAAP//gAD//4AA//+A
+        AP//gAD//4AA//+AAP+xkDT/vHww//+AAP/akgD/x5wA//+AAP/3fAj//n8B/2Z9d///gAD/tqQA/+uK
+        AP//gAD//4AA//+AAP//gAD//4AA//+AAP/+gAD7/4AA//+AAP//gAD//4AA//+AAP/GZDn/93wI//+A
+        AP+/fC7/r5Mx//+AAP//gAD//4AA/9JqLf//gAD/bmqG/+18Df//gAD//4AA//+AAP//gAD//4AA//6A
+        APv+gADQ/4AA//+AAP//gAD//4AA//+AAP//gAD//4AA//+AAP/2fAn/wWM+//+AAP//gAD//4AA//+A
+        AP//gAD/7HcT//+AAP//gAD//4AA//+AAP//gAD//4AA//6AAND8gABp/4AA//+AAP//gAD//4AA//+A
+        AP//gAD//4AA//+AAP//gAD//4AA//+AAP//gAD//4AA//+AAP//gAD//4AA//+AAP//gAD//4AA//+A
+        AP//gAD//4AA//yAAGnrgAAC/YAAqv+AAP//gAD//4AA//+AAP//gAD//4AA//+AAP//gAD//4AA//+A
+        AP//gAD//4AA//+AAP//gAD//4AA//+AAP//gAD//4AA//+AAP//gAD//YAAquuAAAIAAAAA64AAAvyA
+        AGn+gADQ/oAA+/+AAP//gAD//4AA//+AAP//gAD//4AA//+AAP//gAD//4AA//+AAP//gAD//4AA//+A
+        AP//gAD//oAA+/6AAND8gABp64AAAgAAAACAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAA
+        AQA=
+</value>
+  </data>
+  <data name="appNotifyIcon.BalloonTipTitle" xml:space="preserve">
+    <value>Cumplenotas está abierto</value>
+  </data>
+  <data name="&gt;&gt;editbdTSMI.Name" xml:space="preserve">
+    <value>editbdTSMI</value>
+  </data>
+  <data name="&gt;&gt;delbdTSMI.Name" xml:space="preserve">
+    <value>delbdTSMI</value>
+  </data>
+  <data name="&gt;&gt;bdlbCMS.Name" xml:space="preserve">
+    <value>bdlbCMS</value>
+  </data>
+  <data name="editbdB.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;editbdB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;birthdaysL.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;deletebdB.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="showAllCB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>229, 125</value>
+  </data>
+  <data name="&gt;&gt;optionsB.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;notifyIcon.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NotifyIcon, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="editbdTSMI.Size" type="System.Drawing.Size, System.Drawing">
+    <value>185, 22</value>
+  </data>
+  <data name="editbdTSMI.Text" xml:space="preserve">
+    <value>Editar cumpleaños</value>
+  </data>
+  <data name="addbdB.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;checkUpdatesB.Name" xml:space="preserve">
+    <value>checkUpdatesB</value>
+  </data>
+  <data name="appNotifyIcon.Text" xml:space="preserve">
+    <value>Cumplenotas</value>
+  </data>
+  <data name="birthdaysL.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="toolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>182, 6</value>
+  </data>
+  <data name="&gt;&gt;optionsB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;notifyIcon.Name" xml:space="preserve">
+    <value>notifyIcon</value>
+  </data>
+  <data name="checkUpdatesB.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;addbdB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;delbdTSMI.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;showAllCB.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;showAllCB.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;deletebdB.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;checkUpdatesB.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="checkUpdatesB.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="&gt;&gt;bdLB.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="deletebdB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 23</value>
+  </data>
+  <data name="checkUpdatesB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>230, 148</value>
+  </data>
+  <data name="&gt;&gt;addbdTSMI.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="showAllCB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 17</value>
+  </data>
+  <data name="&gt;&gt;editbdB.Name" xml:space="preserve">
+    <value>editbdB</value>
+  </data>
+  <data name="&gt;&gt;bdLB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="editbdB.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="addbdB.Text" xml:space="preserve">
+    <value>Añadir cumpleaños</value>
+  </data>
+  <data name="deletebdB.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="&gt;&gt;checkUpdatesB.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="addbdB.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="deletebdB.Text" xml:space="preserve">
+    <value>Eliminar cumpleaños</value>
+  </data>
+  <data name="checkUpdatesB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 36</value>
+  </data>
+  <data name="editbdB.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="optionsB.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="optionsB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>230, 190</value>
+  </data>
+  <data name="birthdaysL.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 13</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Cumplenotas</value>
+  </data>
+  <data name="editbdB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>230, 60</value>
+  </data>
+  <data name="&gt;&gt;birthdaysL.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;addbdTSMI.Name" xml:space="preserve">
+    <value>addbdTSMI</value>
+  </data>
+  <data name="notifyIcon.Text" xml:space="preserve">
+    <value>¡Cumpleaños!</value>
+  </data>
+  <data name="&gt;&gt;deletebdB.Name" xml:space="preserve">
+    <value>deletebdB</value>
+  </data>
+  <data name="&gt;&gt;checkUpdatesB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="editbdB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 23</value>
+  </data>
+  <data name="bdLB.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="checkUpdatesB.Text" xml:space="preserve">
+    <value>Comprobar
+actualizaciones</value>
+  </data>
+  <data name="optionsB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 23</value>
+  </data>
+  <data name="&gt;&gt;editbdB.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="showAllCB.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="&gt;&gt;optionsB.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="delbdTSMI.Text" xml:space="preserve">
+    <value>Eliminar cumpleaños</value>
+  </data>
+  <data name="&gt;&gt;bdlbCMS.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>344, 221</value>
+  </data>
+  <data name="appNotifyIcon.BalloonTipText" xml:space="preserve">
+    <value>Haz doble clic aquí para volver a cumplenotas</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="bdlbCMS.Size" type="System.Drawing.Size, System.Drawing">
+    <value>186, 76</value>
+  </data>
+  <data name="showAllCB.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;birthdaysL.Name" xml:space="preserve">
+    <value>birthdaysL</value>
+  </data>
+  <data name="notifyIcon.BalloonTipText" xml:space="preserve">
+    <value>Hoy es un cumple, ábreme</value>
+  </data>
+  <data name="&gt;&gt;birthdaysL.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;addbdB.Name" xml:space="preserve">
+    <value>addbdB</value>
+  </data>
+  <data name="addbdB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>230, 30</value>
+  </data>
+  <data name="editbdB.Text" xml:space="preserve">
+    <value>Editar cumpleaños</value>
+  </data>
+  <data name="&gt;&gt;showAllCB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <metadata name="appNotifyIcon.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>225, 17</value>
+  </metadata>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>en</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="notifyIcon.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>119, 17</value>
+  </metadata>
+  <metadata name="bdlbCMS.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+</root>

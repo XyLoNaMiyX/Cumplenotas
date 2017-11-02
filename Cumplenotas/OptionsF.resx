@@ -1,0 +1,438 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="&gt;&gt;smallqL.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="notifDelayNUD.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="smallqNUD.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 20</value>
+  </data>
+  <data name="&gt;&gt;startWithWinCB.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;acceptB.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;acceptB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;spamL.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cancelB.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="cancelB.Text" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="supportL.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 13</value>
+  </data>
+  <data name="smallqL.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="smallqL.Size" type="System.Drawing.Size, System.Drawing">
+    <value>214, 13</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>OptionsF</value>
+  </data>
+  <data name="smallqNUD.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="notifDelayL.Text" xml:space="preserve">
+    <value>Duración de la notificación (en segundos):</value>
+  </data>
+  <data name="&gt;&gt;spamL.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="notifDelayL.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;saveBackupB.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="smallqL.Text" xml:space="preserve">
+    <value>Número de cumpleaños recientes a mostrar:</value>
+  </data>
+  <data name="acceptB.Text" xml:space="preserve">
+    <value>Aceptar</value>
+  </data>
+  <data name="notifDelayL.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 13</value>
+  </data>
+  <data name="spamL.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 170</value>
+  </data>
+  <data name="acceptB.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="supportL.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;startWithWinCB.Name" xml:space="preserve">
+    <value>startWithWinCB</value>
+  </data>
+  <data name="&gt;&gt;smallqL.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="startWithWinCB.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;notifDelayL.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;startWithWinCB.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;smallqNUD.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cancelB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>152, 144</value>
+  </data>
+  <data name="&gt;&gt;saveBackupB.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="notifDelayNUD.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 20</value>
+  </data>
+  <data name="notifDelayL.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="startWithWinCB.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="startWithWinCB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>122, 17</value>
+  </data>
+  <data name="saveBackupB.Text" xml:space="preserve">
+    <value>Guardar backup</value>
+  </data>
+  <data name="&gt;&gt;notifDelayL.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;notifDelayNUD.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="supportL.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cancelB.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="cancelB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="spamL.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="startWithWinCB.Text" xml:space="preserve">
+    <value>Iniciar con Windows</value>
+  </data>
+  <data name="&gt;&gt;cancelB.Name" xml:space="preserve">
+    <value>cancelB</value>
+  </data>
+  <data name="&gt;&gt;smallqL.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="spamL.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="spamL.Text" xml:space="preserve">
+    <value>Aplicación diseñada por LonamiWebs</value>
+  </data>
+  <data name="smallqNUD.Location" type="System.Drawing.Point, System.Drawing">
+    <value>233, 38</value>
+  </data>
+  <data name="&gt;&gt;smallqNUD.Name" xml:space="preserve">
+    <value>smallqNUD</value>
+  </data>
+  <data name="&gt;&gt;notifDelayNUD.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;startWithWinCB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;saveBackupB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAGBgAAAEAIACICQAAFgAAACgAAAAYAAAAMAAAAAEAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAgIAAAoCAAGaAgADOgIAA+oCAAP+AgAD/gIAA/4CAAP+AgAD/gIAA/4CAAP+AgAD/gIAA/4CA
+        AP+AgAD/gIAA/4CAAP+AgAD/gIAA+oCAAM6AgABmgIAAAgAAAACAgAACgIAAqICAAP+AgAD/gIAA/4CA
+        AP+AgAD/gIAA/4CAAP+AgAD/gIAA/4CAAP+AgAD/gIAA/4CAAP+AgAD/gIAA/4CAAP+AgAD/gIAA/4CA
+        AP+AgAD/gIAAqICAAAKAgABmgIAA/4CAAP+AgAD/gIAA/4GCBf+Jji7/jJI8/4ySPP+Mkjz/jJI8/4yS
+        PP+Mkjz/jJI8/4ySPP+Mkjz/jJI8/4mNLP+BgQT/gIAA/4CAAP+AgAD/gIAA/4CAAGaAgADOgIAA/4CA
+        AP+AgAH/lJ5k/6vA1/+vxun/r8bp/6/G6f+vxun/r8bp/6/G6f+vxun/r8bp/6/G6f+vxun/r8bp/6/G
+        6f+rwNT/k5xc/4CAAP+AgAD/gIAA/4CAAM6AgAD6gIAA/4CAAP+YpHn/u8Pa/82/wv/Nv8L/wMLS/8TB
+        zf/Nv8L/zb/C/7fE3v/Nv8L/zb/C/8u/xP+5xNz/zb/C/82/wv/CwtH/w8HP/7qjZP+wkzD/j4YP/4CA
+        APqAgAD/gIAA/4iMJv+vxef/xMHN/+a5of/muaH/z7/A/9a9tv/muaH/5rmh/77C1f/muaH/5rmh/+O6
+        pf/CwtH/5rmh/+a5of/Rvrz/0726/+a5oP/apmH/m4sb/4CAAP+AgAD/gIAA/5ejdP+vxun/xMHN/+a5
+        of/muaH/z7/A/9a9tv/muaH/5rmh/77C1f/muaH/5rmh/+O6pf/CwtH/5rmh/+a5of/Rvrz/0726/+a5
+        of/erXn/m4sb/4CAAP+AgAD/gIAA/52rj/+vxun/uMTe/8bBy//Gwcv/vMPY/7/C1P/Gwcv/xsHL/7XF
+        4f/Gwcv/xsHL/8TBzf+3xN//xsHL/8bBy/+9w9f/vsPW/8bBy/+3q4T/i4QL/4CAAP+AgAD/gIAA/52s
+        kf+5xNz/v8LU/7/C1P+1xeL/vsLV/7/C1P+/wtT/tMXj/7/C1P+/wtT/u8Pa/7jE3f+/wtT/v8LU/7XE
+        4f+9w9b/v8LU/7/C1P+cqIX/gIAA/4CAAP+AgAD/gIAA/52skf/Rvr3/5rmh/+a5of/CwtD/4rqm/+a5
+        of/muaH/vsLV/+a5of/muaH/1r22/86/wP/muaH/5rmh/8XBzf/fu6n/5rmh/+a5of+fp4H/gIAA/4CA
+        AP+AgAD/gIAA/52rkP/Rvr3/5rmh/+a5of/CwtD/5byn/+u8ov/svaL/0M/a/+2+o//tvqP/4cS5/9nG
+        w//qvKL/57qh/8XBzf/fu6n/5rmh/+a5of+fp4D/gIAA/4CAAP+AgAD/gIAA/5ikef/Fwcz/3cS8/+XK
+        vv/c2+H/6M/D/+rNv//qzb//3N3l/+rNv//qzb//5NPO/+HX1v/qzb//6s2//9jW3f/gysP/18C6/9O9
+        uf+ZoGr/gIAA/4CAAP+AgAD/gIAA/5iVP//Q1OL/3N3l/9jh8P/c3eX/3N3l/9ve6P/Z4O3/3N3l/9zd
+        5f/Z4O3/297o/9zd5f/c3eX/2OHw/9zd5f/c3eX/2dzn/7zP6/+Iiyb/gIAA/4CAAP+AgAD/gIAA/9mu
+        c//zwqT/88Kk/9/a3v/zwqT/88Kk/+3JtP/k087/88Kk//LCov/O0KP/7cm1//PCpP/zwqT/39re//PC
+        pP/zwqT/78ew/9Xh7/+Kixv/gIAA/4CAAP+AgAD/gIAA/9qwd//zwqT/88Kk/9/a3v/uwZv/78Kd/+3J
+        tP/k087/88Kk//LCov/L0J7/7cm1/+nBkf/zwqT/39re//PCpP/zwqT/78ew/9bi8v+MjSH/gIAA/4CA
+        AP+AgAD/gIAA/7yZQP/fuo//7cm2/93c4//ax5T/3sia/+jOwv/a1sn/4sii/+vJs/+/0pX/6M/D/8vF
+        eP/tybb/utii/+fJq//tybb/6Mu7/6Wraf+AgAD/gIAA/4CAAP+AgAD/gIAA/4CAAP+BgQT/oKVa/8PM
+        vP+v3qj/t9+4/9fj9P+74L//rN6j/9Tj7v+T23T/1+P0/5Dbbv/X4/T/n92M/8Haxf+0vJP/jpAn/4CA
+        AP+AgAD/gIAA/4CAAP+agAD/moAA/5qAAP+agAD/moAA/5qAAP+InAf/nqw7/8Kucf+yvm3/qshs/827
+        p/9Yd8r/0b6Z/4nGPP+8p2D/ibIj/5KLAf+agAD/moAA/5qAAP+agAD/moAA/5qAAP//gAD//4AA//+A
+        AP//gAD//4AA//+AAP+xkDT/vHww//+AAP/akgD/x5wA//+AAP/3fAj//n8B/2Z9d///gAD/tqQA/+uK
+        AP//gAD//4AA//+AAP//gAD//4AA//+AAP/+gAD7/4AA//+AAP//gAD//4AA//+AAP/GZDn/93wI//+A
+        AP+/fC7/r5Mx//+AAP//gAD//4AA/9JqLf//gAD/bmqG/+18Df//gAD//4AA//+AAP//gAD//4AA//6A
+        APv+gADQ/4AA//+AAP//gAD//4AA//+AAP//gAD//4AA//+AAP/2fAn/wWM+//+AAP//gAD//4AA//+A
+        AP//gAD/7HcT//+AAP//gAD//4AA//+AAP//gAD//4AA//6AAND8gABp/4AA//+AAP//gAD//4AA//+A
+        AP//gAD//4AA//+AAP//gAD//4AA//+AAP//gAD//4AA//+AAP//gAD//4AA//+AAP//gAD//4AA//+A
+        AP//gAD//4AA//yAAGnrgAAC/YAAqv+AAP//gAD//4AA//+AAP//gAD//4AA//+AAP//gAD//4AA//+A
+        AP//gAD//4AA//+AAP//gAD//4AA//+AAP//gAD//4AA//+AAP//gAD//YAAquuAAAIAAAAA64AAAvyA
+        AGn+gADQ/oAA+/+AAP//gAD//4AA//+AAP//gAD//4AA//+AAP//gAD//4AA//+AAP//gAD//4AA//+A
+        AP//gAD//oAA+/6AAND8gABp64AAAgAAAACAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAA
+        AQA=
+</value>
+  </data>
+  <data name="startWithWinCB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 76</value>
+  </data>
+  <data name="&gt;&gt;acceptB.Name" xml:space="preserve">
+    <value>acceptB</value>
+  </data>
+  <data name="&gt;&gt;notifDelayL.Name" xml:space="preserve">
+    <value>notifDelayL</value>
+  </data>
+  <data name="acceptB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="saveBackupB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 23</value>
+  </data>
+  <data name="&gt;&gt;supportL.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cancelB.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="notifDelayNUD.Location" type="System.Drawing.Point, System.Drawing">
+    <value>225, 11</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Opciones</value>
+  </data>
+  <data name="&gt;&gt;acceptB.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;spamL.Name" xml:space="preserve">
+    <value>spamL</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="&gt;&gt;smallqNUD.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="saveBackupB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>207, 76</value>
+  </data>
+  <data name="acceptB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>229, 144</value>
+  </data>
+  <data name="&gt;&gt;spamL.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;notifDelayNUD.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;smallqNUD.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;supportL.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="supportL.Text" xml:space="preserve">
+    <value>Soporte</value>
+  </data>
+  <data name="&gt;&gt;smallqL.Name" xml:space="preserve">
+    <value>smallqL</value>
+  </data>
+  <data name="&gt;&gt;notifDelayNUD.Name" xml:space="preserve">
+    <value>notifDelayNUD</value>
+  </data>
+  <data name="spamL.Size" type="System.Drawing.Size, System.Drawing">
+    <value>185, 13</value>
+  </data>
+  <data name="&gt;&gt;supportL.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cancelB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>316, 192</value>
+  </data>
+  <data name="&gt;&gt;supportL.Name" xml:space="preserve">
+    <value>supportL</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;notifDelayL.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="smallqL.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="supportL.Location" type="System.Drawing.Point, System.Drawing">
+    <value>260, 170</value>
+  </data>
+  <data name="notifDelayL.Size" type="System.Drawing.Size, System.Drawing">
+    <value>206, 13</value>
+  </data>
+  <data name="smallqL.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 40</value>
+  </data>
+  <data name="&gt;&gt;saveBackupB.Name" xml:space="preserve">
+    <value>saveBackupB</value>
+  </data>
+  <data name="saveBackupB.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>en</value>
+  </metadata>
+</root>
